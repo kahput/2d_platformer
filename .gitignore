@@ -1,4 +1,5 @@
 # Ignore build directories
+/assets/
 /build/
 /bin/
 /obj/

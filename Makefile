@@ -11,7 +11,7 @@ BIN_DIR := bin
 
 # Include and linking flags
 INCLUDES := -I./src/
-LIBRARIES := -lraylib
+LIBRARIES := -lraylib -lxml2 -ltmx -lz -lzstd
 
 # Source files and object files
 SOURCES := $(shell find $(SRC_DIR) -name '*.c')

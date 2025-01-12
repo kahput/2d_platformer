@@ -1,7 +1,15 @@
 #pragma once
 
+// Game settings
+#define WINDOW_WIDTH 1280
+#define WINDOW_HEIGHT 720
+#define TILE_SZIE 64
+#define ANIMATION_SPEED 6
+#define TOTAL_LEVELS 6
+
 // fixed width numeric types
 #include <inttypes.h>
+#include <stdbool.h>
 #include <stdint.h>
 
 typedef uint8_t u8;
